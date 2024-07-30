@@ -1,0 +1,90 @@
+:root {
+  --dasar: white;
+  --primary-color: #1a120b;
+  --secondary-color: #3c2a21;
+  --color-text: #d5cea3;
+  --color-blue: #818fb4;
+  --navbar-color-text: #e5e5cb;
+}
+
+* {
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.offcanvas-body li:active {
+  border-bottom: 2px solid white;
+}
+
+.offcanvas-body li:hover {
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: var(--color-text);
+    backdrop-filter: blur(10px);
+  }
+}
+.sect {
+  font-weight: bold;
+  color: var(--dasar);
+  margin-top: 150px;
+}
+
+.wid {
+  color: var(--dasar);
+}
+
+.educa {
+  color: var(--dasar);
+}
+
+.educa .topi {
+  width: 500px;
+  height: 500px;
+}
+
+.educa .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+.degree {
+  color: var(--dasar);
+}
+
+#sert {
+  color: var(--dasar);
+}
+
+#sert a {
+  text-decoration: none;
+  color: white;
+}
+
+#sert a:hover {
+  font-weight: bold;
+}
+
+#contact {
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: black;
+    backdrop-filter: blur(10px);
+  }
+}
