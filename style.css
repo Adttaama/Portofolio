@@ -68,6 +68,10 @@ body {
 #sert {
   color: var(--dasar);
 }
+#sert .card:hover {
+  border-color: white;
+  border: 20px;
+}
 
 #sert a {
   text-decoration: none;
