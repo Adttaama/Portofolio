@@ -40,6 +40,10 @@ body {
   margin-top: 150px;
 }
 
+.sect a {
+  text-decoration: none;
+}
+
 .wid {
   color: var(--dasar);
 }
